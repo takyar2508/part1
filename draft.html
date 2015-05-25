@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="bootstrap.css"> 
+<link rel="stylesheet" href="bootstrap-responsive.css"> 
+<link rel="styesheet" href="draft.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+
+.topBar{
+position:absolute;
+top:0px;
+left:0px;
+height:60px;
+width:1500px;
+background-color:black;
+}
+.threeL{
+position:absolute;
+top:13px;
+left:230px;
+
+}
+.threeL:hover{
+background-color:gray;
+cursor:pointer;
+}
+.glyphicon{
+
+cursor:pointer;
+font-size: 20px;
+}
+
+.btn-default{
+font-size:12px;
+border-radius:7px;
+}
+.sidebar{
+position:absolute;
+left:0px;
+top:60px;
+background-color:black;
+height:600px;
+width:200px;
+}
+.elements{
+//padding-left:5px;
+font-size:20px;
+
+}
+
+.lala{
+border:0;
+margin:0;
+outline:0;
+background-color:#4163B9;
+color:white;
+height:40px;
+width:80px;
+cursor:pointer;
+position:absolute;
+
+border-radius:8px;
+box-shadow:0px 5px 0px grey;
+}
+.lala:active{
+box-shadow:0px 0px 0px grey;
+-webkit-transform:translateY(3px);
+transform:translateY(3px);
+}
+
+</style>              
+
+<body style="background-color:white;">
+<div class="container">
+<div class="topBar">
+
+ <img src="logo.jpg" alt="LOGO" height="80" width="200"><img>
+
+<div class="threeL">
+<button type="button" class="btn btn-default" ">
+  <span class="glyphicon glyphicon-align-justify" ></span>
+</button></div>
+
+ <span class="glyphicon glyphicon-envelope" style="color:#4163B9;position:absolute;top:17px;left:900px;"></span>
+ <span class="glyphicon glyphicon-bell" style="color:#4163B9;position:absolute;top:17px;left:950px;"></span>
+
+<div class="dropdown" style="position:absolute;left:1000px;top:10px;">
+
+   <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"
+style="color:#4163B9">Admin
+    <span class="caret" style="position:absolute;"></span></button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" >
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+      
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+      
+    </ul>
+
+</div>
+</div>
+<div class="sidebar">
+  <div class=row">
+       
+	<div class="col-md-12">
+  <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="draft.html"><span class="glyphicon glyphicon-stats"></span> &nbsp Analytics</a></li>
+<br>
+        <li><a href="achievements.html"><span class="glyphicon glyphicon-glass"></span> &nbspAchievements</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-edit"></span> &nbspNews</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-send"></span> &nbspDiscussions</a></li>
+<br>
+	<li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> &nbspEvents</a></li>
+	<li><a href="#"><span class="glyphicon glyphicon-lock"></span> &nbspJobs</a></li>
+<br>
+	<li><a href="#"><span class="glyphicon glyphicon-user"></span> &nbspUsers</a></li>
+<br>
+	<li><a href="#"><span class="glyphicon glyphicon-time"></span> &nbspScheduled Visits</a></li>
+
+      </ul>
+    </div>
+</div>
+<button class="lala" style="top:20px;left:280px;"><span class="glyphicon glyphicon-plus"></span>  Add </button>
+<button class="lala" style="top:20px;left:370px;"><span class="glyphicon glyphicon-download"></span>  Export </button>
+</div>
+</body>
+
+</html>
+
